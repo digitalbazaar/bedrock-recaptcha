@@ -1,4 +1,4 @@
-# Bedrock HTTP API Module Template _(bedrock-module-template-http)_
+# Bedrock Recaptcha _(bedrock-recaptcha)_
 
 [![Build Status](https://img.shields.io/github/workflow/status/digitalbazaar/bedrock-module-template-http/Bedrock%20Node.js%20CI)](https://github.com/digitalbazaar/bedrock-module-template-http/actions?query=workflow%3A%22Bedrock+Node.js+CI%22)
 [![NPM Version](https://img.shields.io/npm/v/bedrock-module-template-http.svg)](https://npm.im/bedrock-module-template-http)
@@ -7,13 +7,17 @@
 
 ## Table of Contents
 
-- [Background](#background)
-- [Security](#security)
-- [Install](#install)
-- [Usage](#usage)
-- [Contribute](#contribute)
-- [Commercial Support](#commercial-support)
-- [License](#license)
+- [Bedrock Recaptcha _(bedrock-recaptcha)_](#bedrock-recaptcha-bedrock-recaptcha)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+  - [Security](#security)
+  - [Install](#install)
+    - [NPM](#npm)
+    - [Development](#development)
+  - [Usage](#usage)
+  - [Contribute](#contribute)
+  - [Commercial Support](#commercial-support)
+  - [License](#license)
 
 ## Background
 
