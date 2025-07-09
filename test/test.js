@@ -1,12 +1,9 @@
 /*
- * Copyright (c) 2021 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (C) 2024-2025 Digital Bazaar, Inc. All rights reserved..
  */
-'use strict';
+import * as bedrock from '@bedrock/core';
+import '@bedrock/https-agent';
+import '@bedrock/mongodb';
+import '@bedrock/test';
 
-const bedrock = require('bedrock');
-require('bedrock-https-agent');
-require('bedrock-mongodb');
-require('bedrock-module-template-http');
-
-require('bedrock-test');
-bedrock.start();
+await bedrock.start();
