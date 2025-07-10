@@ -1,15 +1,13 @@
 /*
- * Copyright (C) 2024-2025 Digital Bazaar, Inc. All rights reserved..
+ * Copyright (C) 2025 Digital Bazaar, Inc. All rights reserved..
  */
 import {config} from '@bedrock/core';
+import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 
-// MongoDB
-config.mongodb.name = 'bedrock_module_template_http_test';
-config.mongodb.dropCollections.onInit = true;
-config.mongodb.dropCollections.collections = [];
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-config.mocha.tests.push(path.join(import.meta.dirname, 'mocha'));
+config.mocha.tests.push(path.join(__dirname, 'mocha'));
 
 // allow self-signed certs in test framework
 config['https-agent'].rejectUnauthorized = false;

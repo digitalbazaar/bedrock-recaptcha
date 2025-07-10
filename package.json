@@ -2,7 +2,7 @@
   "name": "@bedrock/recaptcha",
   "version": "0.0.1-0",
   "description": "Bedrock Recaptcha Middleware",
-  "main": "./lib",
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint ."
   },
