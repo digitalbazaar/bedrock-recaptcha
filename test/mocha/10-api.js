@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024-2025 Digital Bazaar, Inc. All rights reserved..
+ * Copyright (C) 2025 Digital Bazaar, Inc. All rights reserved.
  */
 import {strict as assert} from 'node:assert';
 
