@@ -44,6 +44,6 @@
     "eslint-plugin-unicorn": "^56.0.1"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=20"
   }
 }
