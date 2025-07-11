@@ -35,9 +35,6 @@
     "lib": "./lib"
   },
   "devDependencies": {
-    "@bedrock/https-agent": "^4.1.0",
-    "@bedrock/mongodb": "^11.0.0",
-    "@bedrock/test": "^8.2.0",
     "eslint": "^8.57.1",
     "eslint-config-digitalbazaar": "^5.2.0",
     "eslint-plugin-jsdoc": "^50.6.8",
