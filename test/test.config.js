@@ -2,12 +2,9 @@
  * Copyright (C) 2025 Digital Bazaar, Inc. All rights reserved..
  */
 import {config} from '@bedrock/core';
-import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-config.mocha.tests.push(path.join(__dirname, 'mocha'));
+config.mocha.tests.push(path.join(import.meta.dirname, 'mocha'));
 
 // allow self-signed certs in test framework
 config['https-agent'].rejectUnauthorized = false;
