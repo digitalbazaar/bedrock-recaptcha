@@ -1,9 +1,8 @@
 # Bedrock Recaptcha _(bedrock-recaptcha)_
 
-[![Build Status](https://img.shields.io/github/workflow/status/digitalbazaar/bedrock-module-template-http/Bedrock%20Node.js%20CI)](https://github.com/digitalbazaar/bedrock-module-template-http/actions?query=workflow%3A%22Bedrock+Node.js+CI%22)
-[![NPM Version](https://img.shields.io/npm/v/bedrock-module-template-http.svg)](https://npm.im/bedrock-module-template-http)
+[![Build Status](https://img.shields.io/github/workflow/status/digitalbazaar/bedrock-recaptcha/Bedrock%20Node.js%20CI)](https://github.com/digitalbazaar/bedrock-recaptcha/actions?query=workflow%3A%22Bedrock+Node.js+CI%22)
+[![NPM Version](https://img.shields.io/npm/v/bedrock-recaptcha.svg)](https://npm.im/bedrock-recaptcha)
 
-> A template for HTTP API modules for Bedrock applications.
 
 ## Table of Contents
 
@@ -29,14 +28,14 @@ TBD
 
 ## Install
 
-- Node.js 12+ is required.
+- Node.js 20+ is required.
 
 ### NPM
 
 To install via NPM:
 
 ```
-npm install --save bedrock-module-template-http
+npm install --save @bedrock/recaptcha
 ```
 
 ### Development
@@ -44,8 +43,8 @@ npm install --save bedrock-module-template-http
 To install locally (for development):
 
 ```
-git clone https://github.com/digitalbazaar/bedrock-module-template-http.git
-cd bedrock-module-template-http
+git clone https://github.com/digitalbazaar/bedrock-recaptcha.git
+cd bedrock-recaptcha
 npm install
 ```
 
