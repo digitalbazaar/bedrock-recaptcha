@@ -1,12 +1,11 @@
-# Bedrock Recaptcha _(bedrock-recaptcha)_
+# Bedrock Recaptcha _(@bedrock/recaptcha)_
 
-[![Build Status](https://img.shields.io/github/workflow/status/digitalbazaar/bedrock-recaptcha/Bedrock%20Node.js%20CI)](https://github.com/digitalbazaar/bedrock-recaptcha/actions?query=workflow%3A%22Bedrock+Node.js+CI%22)
-[![NPM Version](https://img.shields.io/npm/v/bedrock-recaptcha.svg)](https://npm.im/bedrock-recaptcha)
-
+[![Build Status](https://img.shields.io/github/actions/workflow/status/digitalbazaar/bedrock-recaptcha/main.yaml)](https://github.com/digitalbazaar/bedrock-recaptcha/actions/workflows/main.yaml)
+[![NPM Version](https://img.shields.io/npm/v/@bedrock/recaptcha.svg)](https://npm.im/@bedrock/recaptcha)
 
 ## Table of Contents
 
-- [Bedrock Recaptcha _(bedrock-recaptcha)_](#bedrock-recaptcha-bedrock-recaptcha)
+- [Bedrock Recaptcha _(@bedrock/recaptcha)_](#bedrock-recaptcha-bedrock-recaptcha)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
   - [Security](#security)
