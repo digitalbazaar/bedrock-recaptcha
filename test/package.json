@@ -2,6 +2,7 @@
   "name": "@bedrock/recaptcha-test",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "test": "node --preserve-symlinks test.js test",
     "coverage": "cross-env NODE_ENV=test c8 --reporter=lcov --reporter=text-summary npm test",
