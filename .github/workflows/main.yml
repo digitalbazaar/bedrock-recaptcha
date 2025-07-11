@@ -22,11 +22,6 @@ jobs:
     needs: [lint]
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    services:
-      mongodb:
-        image: mongo:4.2
-        ports:
-          - 27017:27017
     strategy:
       matrix:
         node-version: [22.x]
@@ -47,11 +42,6 @@ jobs:
     needs: [test-node]
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    services:
-      mongodb:
-        image: mongo:4.2
-        ports:
-          - 27017:27017
     strategy:
       matrix:
         node-version: [22.x]
