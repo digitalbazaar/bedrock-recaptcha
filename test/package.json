@@ -15,7 +15,6 @@
     "@bedrock/express": "^8.3.0",
     "@bedrock/https-agent": "^4.1.0",
     "@bedrock/recaptcha": "file:..",
-    "@bedrock/server": "^5.1.0",
     "@bedrock/test": "^8.2.0",
     "@digitalbazaar/http-client": "^4.2.0",
     "c8": "^10.1.3",
