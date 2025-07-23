@@ -4,5 +4,6 @@
 import * as bedrock from '@bedrock/core';
 import '@bedrock/https-agent';
 import '@bedrock/test';
+import '@bedrock/recaptcha';
 
 await bedrock.start();
