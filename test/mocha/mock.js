@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2025 Digital Bazaar, Inc. All rights reserved.
+ */
 import * as bedrock from '@bedrock/core';
 import nock from 'nock';
 import sinon from 'sinon';
