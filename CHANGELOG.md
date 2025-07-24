@@ -1,6 +1,6 @@
 # bedrock-recaptcha ChangeLog
 
-## 2.0.0 - 2025-07-xx
+## 2.0.0 - 2025-07-23
 
 ### Changed
 - **BREAKING**: Removed http endpoint to retrieve configs from web client. Instead use 
